@@ -1,0 +1,58 @@
+.App {
+  padding: 10px 60px 10px 60px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.infocontainer {
+  display: flex;
+  flex-direction: column;
+}
+.infocontainer h3 {
+  color: rgb(131, 105, 58);
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+
+.buttons {
+  padding: 5px 9px;
+  border: none;
+  border-radius: 2px;
+  margin: 6px 3px 0px 3px;
+}
+.linkedin {
+  color: white;
+  background-color: rgb(101, 167, 365);
+}
+.nametext {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+.heading,
+.infotext,
+.nametext {
+  color: rgb(143, 0, 0);
+  letter-spacing: 0.1px;
+}
+.heading {
+  font-size: 22px;
+}
+.infotext {
+  font-size: 16px;
+  padding: 0px 10px;
+  color: rgb(83, 61, 0);
+  font-family: "Lato", sans-serif;
+}
+.footer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
